@@ -1,5 +1,10 @@
 ### Hi there 👋
+<h1 align="center">Hi 👋, I'm Chloe</h1>
+<h3 align="center">Data Science and Analytics professional with 2+ years experience in advertising services, marketing industries. Curious thinker, problem solver and love to learning new things.</h3>
 
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+</p>
 <!--
 **luyaochloewang/luyaochloewang** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
