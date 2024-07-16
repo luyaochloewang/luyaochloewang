@@ -1,0 +1,42 @@
+Customer Lifetime value is how much money a customer will bring brand throughout their entire time as a paying customer. This metric provides insight into how much a customer is worth to a brand and informs decisions about investment in customer retention.
+- It helps determine the value of a customer and indicates whether they are likely to become repeat customers 
+- knowing how much should be investing in customer retention going forward. 用多少钱维护目前用户关系
+- high CLV, high prob of them buying more product 
+- CLV -- business marketing 
+- if CLV of a customer is 100, and the cost to acquire a new customer is 50. DO it. 
+	- accessing the profitability of acquiring new customers. a positive ROI is achieved when the cost to acquire a new customer is < CLV
+- CLV = average order value X purchase frequency X average customer lifetime 
+	- average customer lifetime = average monthly churn rate (leaving rate) = 1/0.05 = 20 years(assume churn rate is 5%)
+- EX: CLV = average purchase amount X purchase frequency X average customer lifetime = 100 X 5 X 20 X 12(months) 
+- we typical estimate CLV over the course of a certain period, 3 months, 12 months
+
+### Situation
+
+This project aims to predict the Customer Lifetime Value (CLV) for a set of customers based on historical sales data. CLV is a critical metric for businesses as it helps them understand the long-term value of their customers and make informed decisions about customer acquisition and retention strategies.
+
+### Task & Actions
+
+1. **Cleaning and Preparing the Sales Data:**
+    
+    - Filtering the sales data to exclude certain periods.
+    - Creating pivot tables to aggregate sales data every three months for each customer.
+    - Filling missing values with zeros.
+2. **Transforming the Data into a Suitable Format for Modeling:**
+    
+    - Feature engineering: creating features such as `sales_num`, `sales_sum`, and `sales_count` for different months.
+    - Excluding the target month.
+3. **Training a Linear Regression Model to Predict the CLV:**
+    
+    - Using a linear regression model to fit the data.
+    - Splitting the data into training and testing sets.
+    - Training the model on the training set.
+4. **Evaluating the Model's Performance:**
+    
+    - Predicting CLV on the test set.
+    - Calculating evaluation metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).
+5. **Interpreting the Results to Provide Actionable Insights.**
+    
+
+### Results
+
+The model suggests that customers who made significant purchases more than a year ago are more valuable in terms of CLV than those who made recent purchases. Therefore, marketing and retention efforts should focus more on customers who made purchases a year ago. Develop targeted marketing campaigns for customers with significant purchase activity from a year ago. Focus less on people who purchased recently, as their purchases have a lower impact on CLV.
