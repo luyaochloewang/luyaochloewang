@@ -1,0 +1,2 @@
+Objective:
+The project focuses on analyzing customer buying behavior to understand and improve product selling performance by segmenting customers using the K-Means clustering algorithm. The data consists of a large number of transactions, and the analysis involves several steps, from data preparation to clustering.
